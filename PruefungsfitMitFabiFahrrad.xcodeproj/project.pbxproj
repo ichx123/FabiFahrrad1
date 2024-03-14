@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AE659D2BA30A8700501ADB /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE659C2BA30A8700501ADB /* ScoreViewController.swift */; };
+		84E938CC2BA1E6F90084D47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938CB2BA1E6F90084D47E /* AppDelegate.swift */; };
+		84E938CE2BA1E6F90084D47E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938CD2BA1E6F90084D47E /* SceneDelegate.swift */; };
+		84E938D02BA1E6F90084D47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938CF2BA1E6F90084D47E /* ViewController.swift */; };
+		84E938D32BA1E6F90084D47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E938D12BA1E6F90084D47E /* Main.storyboard */; };
+		84E938D52BA1E6FA0084D47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E938D42BA1E6FA0084D47E /* Assets.xcassets */; };
+		84E938D82BA1E6FA0084D47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E938D62BA1E6FA0084D47E /* LaunchScreen.storyboard */; };
+		84E938E32BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938E22BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.swift */; };
+		84E938ED2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938EC2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.swift */; };
+		84E938EF2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938EE2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITestsLaunchTests.swift */; };
+		84E938FE2BA1F77E0084D47E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938FD2BA1F77E0084D47E /* MainController.swift */; };
+		84E939002BA1FE2A0084D47E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E938FF2BA1FE2A0084D47E /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E938DF2BA1E6FA0084D47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E938C02BA1E6F90084D47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E938C72BA1E6F90084D47E;
+			remoteInfo = PruefungsfitMitFabiFahrrad;
+		};
+		84E938E92BA1E6FA0084D47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E938C02BA1E6F90084D47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E938C72BA1E6F90084D47E;
+			remoteInfo = PruefungsfitMitFabiFahrrad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84AE659C2BA30A8700501ADB /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		84E938C82BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruefungsfitMitFabiFahrrad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E938CB2BA1E6F90084D47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E938CD2BA1E6F90084D47E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84E938CF2BA1E6F90084D47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E938D22BA1E6F90084D47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E938D42BA1E6FA0084D47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E938D72BA1E6FA0084D47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E938D92BA1E6FA0084D47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E938DE2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruefungsfitMitFabiFahrradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E938E22BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruefungsfitMitFabiFahrradTests.swift; sourceTree = "<group>"; };
+		84E938E82BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruefungsfitMitFabiFahrradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E938EC2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruefungsfitMitFabiFahrradUITests.swift; sourceTree = "<group>"; };
+		84E938EE2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruefungsfitMitFabiFahrradUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84E938FD2BA1F77E0084D47E /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		84E938FF2BA1FE2A0084D47E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E938C52BA1E6F90084D47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E938DB2BA1E6FA0084D47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E938E52BA1E6FA0084D47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E938BF2BA1E6F90084D47E = {
+			isa = PBXGroup;
+			children = (
+				84E938CA2BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad */,
+				84E938E12BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests */,
+				84E938EB2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests */,
+				84E938C92BA1E6F90084D47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E938C92BA1E6F90084D47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E938C82BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad.app */,
+				84E938DE2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.xctest */,
+				84E938E82BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E938CA2BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad */ = {
+			isa = PBXGroup;
+			children = (
+				84E938CB2BA1E6F90084D47E /* AppDelegate.swift */,
+				84E938CD2BA1E6F90084D47E /* SceneDelegate.swift */,
+				84E938CF2BA1E6F90084D47E /* ViewController.swift */,
+				84E938D12BA1E6F90084D47E /* Main.storyboard */,
+				84AE659C2BA30A8700501ADB /* ScoreViewController.swift */,
+				84E938FF2BA1FE2A0084D47E /* Question.swift */,
+				84E938FD2BA1F77E0084D47E /* MainController.swift */,
+				84E938D42BA1E6FA0084D47E /* Assets.xcassets */,
+				84E938D62BA1E6FA0084D47E /* LaunchScreen.storyboard */,
+				84E938D92BA1E6FA0084D47E /* Info.plist */,
+			);
+			path = PruefungsfitMitFabiFahrrad;
+			sourceTree = "<group>";
+		};
+		84E938E12BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E938E22BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.swift */,
+			);
+			path = PruefungsfitMitFabiFahrradTests;
+			sourceTree = "<group>";
+		};
+		84E938EB2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E938EC2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.swift */,
+				84E938EE2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITestsLaunchTests.swift */,
+			);
+			path = PruefungsfitMitFabiFahrradUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E938C72BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E938F22BA1E6FA0084D47E /* Build configuration list for PBXNativeTarget "PruefungsfitMitFabiFahrrad" */;
+			buildPhases = (
+				84E938C42BA1E6F90084D47E /* Sources */,
+				84E938C52BA1E6F90084D47E /* Frameworks */,
+				84E938C62BA1E6F90084D47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PruefungsfitMitFabiFahrrad;
+			productName = PruefungsfitMitFabiFahrrad;
+			productReference = 84E938C82BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E938DD2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E938F52BA1E6FA0084D47E /* Build configuration list for PBXNativeTarget "PruefungsfitMitFabiFahrradTests" */;
+			buildPhases = (
+				84E938DA2BA1E6FA0084D47E /* Sources */,
+				84E938DB2BA1E6FA0084D47E /* Frameworks */,
+				84E938DC2BA1E6FA0084D47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E938E02BA1E6FA0084D47E /* PBXTargetDependency */,
+			);
+			name = PruefungsfitMitFabiFahrradTests;
+			productName = PruefungsfitMitFabiFahrradTests;
+			productReference = 84E938DE2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E938E72BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E938F82BA1E6FA0084D47E /* Build configuration list for PBXNativeTarget "PruefungsfitMitFabiFahrradUITests" */;
+			buildPhases = (
+				84E938E42BA1E6FA0084D47E /* Sources */,
+				84E938E52BA1E6FA0084D47E /* Frameworks */,
+				84E938E62BA1E6FA0084D47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E938EA2BA1E6FA0084D47E /* PBXTargetDependency */,
+			);
+			name = PruefungsfitMitFabiFahrradUITests;
+			productName = PruefungsfitMitFabiFahrradUITests;
+			productReference = 84E938E82BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E938C02BA1E6F90084D47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					1,
+					2,
+				);
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					84E938C72BA1E6F90084D47E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					84E938DD2BA1E6FA0084D47E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 84E938C72BA1E6F90084D47E;
+					};
+					84E938E72BA1E6FA0084D47E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 84E938C72BA1E6F90084D47E;
+					};
+				};
+			};
+			buildConfigurationList = 84E938C32BA1E6F90084D47E /* Build configuration list for PBXProject "PruefungsfitMitFabiFahrrad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E938BF2BA1E6F90084D47E;
+			productRefGroup = 84E938C92BA1E6F90084D47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E938C72BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad */,
+				84E938DD2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests */,
+				84E938E72BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E938C62BA1E6F90084D47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E938D82BA1E6FA0084D47E /* LaunchScreen.storyboard in Resources */,
+				84E938D52BA1E6FA0084D47E /* Assets.xcassets in Resources */,
+				84E938D32BA1E6F90084D47E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E938DC2BA1E6FA0084D47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E938E62BA1E6FA0084D47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E938C42BA1E6F90084D47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E939002BA1FE2A0084D47E /* Question.swift in Sources */,
+				84E938FE2BA1F77E0084D47E /* MainController.swift in Sources */,
+				84E938D02BA1E6F90084D47E /* ViewController.swift in Sources */,
+				84E938CC2BA1E6F90084D47E /* AppDelegate.swift in Sources */,
+				84E938CE2BA1E6F90084D47E /* SceneDelegate.swift in Sources */,
+				84AE659D2BA30A8700501ADB /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E938DA2BA1E6FA0084D47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E938E32BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E938E42BA1E6FA0084D47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E938EF2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITestsLaunchTests.swift in Sources */,
+				84E938ED2BA1E6FA0084D47E /* PruefungsfitMitFabiFahrradUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E938E02BA1E6FA0084D47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E938C72BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad */;
+			targetProxy = 84E938DF2BA1E6FA0084D47E /* PBXContainerItemProxy */;
+		};
+		84E938EA2BA1E6FA0084D47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E938C72BA1E6F90084D47E /* PruefungsfitMitFabiFahrrad */;
+			targetProxy = 84E938E92BA1E6FA0084D47E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E938D12BA1E6F90084D47E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E938D22BA1E6F90084D47E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E938D62BA1E6FA0084D47E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E938D72BA1E6FA0084D47E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E938F02BA1E6FA0084D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E938F12BA1E6FA0084D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E938F32BA1E6FA0084D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PruefungsfitMitFabiFahrrad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PruefungsfitMitFabiFahrrad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E938F42BA1E6FA0084D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PruefungsfitMitFabiFahrrad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PruefungsfitMitFabiFahrrad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E938F62BA1E6FA0084D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PruefungsfitMitFabiFahrradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruefungsfitMitFabiFahrrad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PruefungsfitMitFabiFahrrad";
+			};
+			name = Debug;
+		};
+		84E938F72BA1E6FA0084D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PruefungsfitMitFabiFahrradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruefungsfitMitFabiFahrrad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PruefungsfitMitFabiFahrrad";
+			};
+			name = Release;
+		};
+		84E938F92BA1E6FA0084D47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PruefungsfitMitFabiFahrradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PruefungsfitMitFabiFahrrad;
+			};
+			name = Debug;
+		};
+		84E938FA2BA1E6FA0084D47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PruefungsfitMitFabiFahrradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PruefungsfitMitFabiFahrrad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E938C32BA1E6F90084D47E /* Build configuration list for PBXProject "PruefungsfitMitFabiFahrrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E938F02BA1E6FA0084D47E /* Debug */,
+				84E938F12BA1E6FA0084D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E938F22BA1E6FA0084D47E /* Build configuration list for PBXNativeTarget "PruefungsfitMitFabiFahrrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E938F32BA1E6FA0084D47E /* Debug */,
+				84E938F42BA1E6FA0084D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E938F52BA1E6FA0084D47E /* Build configuration list for PBXNativeTarget "PruefungsfitMitFabiFahrradTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E938F62BA1E6FA0084D47E /* Debug */,
+				84E938F72BA1E6FA0084D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E938F82BA1E6FA0084D47E /* Build configuration list for PBXNativeTarget "PruefungsfitMitFabiFahrradUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E938F92BA1E6FA0084D47E /* Debug */,
+				84E938FA2BA1E6FA0084D47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E938C02BA1E6F90084D47E /* Project object */;
+}
