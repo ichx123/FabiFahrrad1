@@ -257,14 +257,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7rL-h5-Vz4"/>
         <segue reference="6oT-UX-Fjo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Icon" width="220" height="220"/>
         <image name="LachendesSmiley" width="233" height="286"/>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Hinzufügen von Button-Styles
         beginButton.layer.shadowColor = UIColor.black.cgColor
         beginButton.layer.shadowOffset = CGSize(width: 2, height: 2)
         beginButton.layer.shadowOpacity = 0.5

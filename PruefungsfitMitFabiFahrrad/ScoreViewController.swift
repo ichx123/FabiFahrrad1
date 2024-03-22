@@ -15,10 +15,11 @@ class ScoreViewController: UIViewController {
     
     @IBOutlet weak var scoreOutput: UILabel!
     
+    // Variable übernimmt den "correctAnswerCount" aus dem MainController
     var score: Int = 0
     
     @IBAction func startOverTapped(_ sender: Any) {
-        
+        //Leitet wieder zurück auf den Lern- und Quizmodus
         performSegue(withIdentifier: "newStart", sender: self)
         
     }
@@ -27,15 +28,18 @@ class ScoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Hinzufügen von Button-Styles
         startOverButton.layer.shadowColor = UIColor.black.cgColor
         startOverButton.layer.shadowOffset = CGSize(width: 2, height: 2)
         startOverButton.layer.shadowOpacity = 0.5
         
+        //Zeigt das Testergebnis für den übergebenen Score aus dem Quizmodus an
         showTestResults(score: score)
 
-        // Do any additional setup after loading the view.
     }
     
+    // Funktion, um abhängig vom Testergebnis einen anderen Text, Hintergrundfarbe und Smiley anzuzeigen
+    // Unter 15 Punkten ist das Testergebnis negativ zu werten
     func showTestResults(score: Int) {
         if score >= 15 {
             scoreOutput.text = "Du hast die Prüfung mit \(score) von 20 Punkten bestanden!"

@@ -9,14 +9,16 @@ import Foundation
 import UIKit
 
 struct Question {
-    let questionText: String
-    let answers: [String]
-    let correctAnswer: Int
-    let hinweis: String
-    let image: UIImage
+    let questionText: String //Frage
+    let answers: [String] // 4 Antworten, bei weniger als 2 Antworten werden leere Strings eingesetzt
+    let correctAnswer: Int //Index der korrekten Antwort im Antwort-Array, Zahl von 0-3
+    let hinweis: String //Dient als Hinweis bei einer falschen Antwort und als Lernhilfe im Lernmodus
+    let image: UIImage //Dient als Veranschaulichung der Frage
     
 }
 
+//Array von Question-Objekten, dass alle erstellten Fragen aufnimmt
+//Werden im Lernmodus in der erstellten Reihenfolge angezeigt
 let questions: [Question] = [
     Question(questionText: "Welche Strahler muss ein Fahrrad haben?", answers: ["roter Rückstrahler", "gelbe Rückstrahler an Speichen", "weißer Rückstrahler", "Alle genannten"], correctAnswer: 3, hinweis: "Das Fahrrad muss mit roten Rückstrahlern hinten, einem weißen Rückstrahler vorne und mit gelben Rückstrahlern an Speichen und Pedalen ausgestattet sein.", image: UIImage(named: "q1")!),
     Question(questionText: "Was solltest du vor jeder Fahrt mit deinem Fahrrad machen?", answers: ["Gar nichts", "Luft aufpumpen", "Strahler reinigen", "Prüfen, ob alles in Ordnung ist"], correctAnswer: 3, hinweis: "Vor jeder Fahrt solltest du prüfen, ob dein Fahrrad die benötigte Ausrüstung besitzt und kontrollieren, ob etwas kaputt ist.", image: UIImage(named: "q1")!),
@@ -45,5 +47,7 @@ let questions: [Question] = [
     
 ]
 
-
-let questionsForQuiz = Array(questions.shuffled().prefix(20))
+/* Array von Fragen für das Quiz
+Shuffeld zuerst alle Fragen aus dem questions-Array, um dann die ersten 20 Fragen daraus zu wählen - so werden
+zufällige Fragen ausgewählt */
+var questionsForQuiz = Array(questions.shuffled().prefix(20))
